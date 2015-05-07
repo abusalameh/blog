@@ -57,6 +57,18 @@ class PostsController extends Controller {
 		$data = Posts::all();
 		return view('Posts.yazan')->with('data',$data);
 	}
+	
+	public function naji()
+	{
+		$post = new Posts;
+		$post -> title = "Mohammad Naji";
+		$post -> body = "This article is written by Mohammad Naji ....";
+		$post -> author = "Mohammad Naji";
+		$post -> active = 1;
+		$post -> created_at = Carbon\Carbon::now();
+		$post -> save();
+		return view('Posts.saved');
+	}
 
 	/**
 	 * Boot Function
