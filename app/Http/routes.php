@@ -10,6 +10,7 @@ Route::get('func','PostsController@func');
 Route::get('naser','PostsController@naser');
 Route::get('yazan.sammoudi','PostsController@sam');
 Route::get('select','PostsController@selMenu');
+Route::get('naji','PostsController@naji');
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',
