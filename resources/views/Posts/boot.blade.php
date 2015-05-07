@@ -1,0 +1,9 @@
+@extends('master')
+
+
+@section('content')
+
+<div class="row"><div class="col-sm-6 col-md-3"><div class="thumbnail"><img class="img-rounded" src="img/thumbnail-1.jpg"><div class="caption text-center"><h3>Thumbnail label</h3><p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id ...</p><p><a href="#" class="btn btn-warning" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p></div></div></div><div class="col-sm-6 col-md-3"><div class="thumbnail"><img class="img-rounded" src="img/thumbnail-2.jpg"><div class="caption text-center"><h3>Thumbnail label</h3><p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id ...</p><p><a href="#" class="btn btn-warning" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p></div></div></div><div class="col-sm-6 col-md-3"><div class="thumbnail"><img class="img-rounded" src="img/thumbnail-3.jpg"><div class="caption text-center"><h3>Thumbnail label</h3><p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id ...</p><p><a href="#" class="btn btn-warning" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p></div></div></div><div class="col-sm-6 col-md-3"><div class="thumbnail"><img class="img-rounded" src="img/thumbnail-4.jpg"><div class="caption text-center"><h3>Thumbnail label</h3><p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id ...</p><p><a href="#" class="btn btn-warning" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p></div></div></div></div>
+	
+
+@stop
